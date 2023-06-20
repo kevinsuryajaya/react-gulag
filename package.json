@@ -1,0 +1,51 @@
+{
+  "name": "react-force-journey",
+  "version": "0.0.1",
+  "description": "It's a journey to develop our component for Design System",
+  "main": "index.js",
+  "author": "Kevin Suryajaya Soemarto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinsuryajaya/react-force-journey/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinsuryajaya/react-force-journey.git"
+  },
+  "homepage": "https://github.com/kevinsuryajaya/react-force-journey#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "storybook dev -p 6006",
+    "dev": "./node_modules/.bin/webpack --mode development --watch",
+    "build": "./node_modules/.bin/webpack --mode production",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/blocks": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-webpack5": "^7.0.22",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "storybook": "^7.0.22",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "Javascript",
+    "JS",
+    "Component",
+    "UI"
+  ]
+}

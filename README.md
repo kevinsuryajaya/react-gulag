@@ -1,5 +1,7 @@
-# react-force-journey
+# react-gulag
 It's a journey to develop our component for Design System
+
+Develop by SFJ
 
 ## Specification
 Node version 16.20.0

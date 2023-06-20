@@ -1,18 +1,18 @@
 {
-  "name": "react-force-journey",
+  "name": "react-gulag",
   "version": "0.0.1",
   "description": "It's a journey to develop our component for Design System",
   "main": "index.js",
   "author": "Kevin Suryajaya Soemarto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevinsuryajaya/react-force-journey/issues"
+    "url": "https://github.com/kevinsuryajaya/react-gulag/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinsuryajaya/react-force-journey.git"
+    "url": "git+https://github.com/kevinsuryajaya/react-gulag.git"
   },
-  "homepage": "https://github.com/kevinsuryajaya/react-force-journey#readme",
+  "homepage": "https://github.com/kevinsuryajaya/react-gulag#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "storybook dev -p 6006",

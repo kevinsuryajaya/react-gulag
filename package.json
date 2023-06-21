@@ -1,8 +1,8 @@
 {
   "name": "react-gulag",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "It's a journey to develop our component for Design System",
-  "main": "index.js",
+  "main": "build/index.js",
   "author": "Kevin Suryajaya Soemarto",
   "license": "MIT",
   "bugs": {
@@ -21,6 +21,7 @@
     "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.5",
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-react": "^7.22.5",
     "@storybook/addon-essentials": "^7.0.22",
@@ -30,10 +31,14 @@
     "@storybook/react": "^7.0.22",
     "@storybook/react-webpack5": "^7.0.22",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "storybook": "^7.0.22",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.87.0",
     "webpack-cli": "^5.1.4"
   },
   "peerDependencies": {
